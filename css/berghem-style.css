@@ -48,7 +48,7 @@ h3 {
 
 span {
   color: #fe5000;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
 }
 
 aside {
@@ -64,46 +64,14 @@ aside>div {
   justify-content: flex-end;
 }
 
-.nav-link {
-  color: #fff;
-  font-size: 1.375em;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  color: #fe5000;
-}
-
-.btn-filter {
-  border-color: #fe5000;
-  color: #fe5000;
-  display: flex;
-  justify-content: end;
-}
-
-.btn-filter:hover {
-  background-color: #fe5000;
-  border: none;
-  outline: none;
-}
-
-.jumbotron {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 0;
-  color: #ffffff;
-}
-
 .courses-section {
-  color: #ffffff;
 }
 
 .course-area {
   background-color: #ffffff;
-  color: #212529;
+  /* color: #212529;
   padding-bottom: .75em;
-  padding-top: .75em;
+  padding-top: .75em; */
 }
 
 .card-body {
@@ -111,34 +79,29 @@ aside>div {
 }
 
 .sched-price-area {
-  background-color: #efefef;
+  /* background-color: #efefef;
   border-radius: 5px;
   padding-top: .5em;
-  margin-top: .5em;
+  margin-top: .5em; */
 }
 
 .btn-matricula {
-  display: block;
+  /* display: block;
   background-color: #fe5000;
   text-transform: uppercase;
-  border: none;
+  border: none; */
 }
 
 .btn-matricula:hover {
-  background-color: #fe5000;
+  /* background-color: #fe5000;
   font-size: 1.25em;
   margin: 1.1rem;
-  transition: .25s;
+  transition: .25s; */
 }
 
 .price-desc {
-  padding-left: .5em;
+  /* padding-left: .5em; */
 }
-
-.remove {
-  display: none;
-}
-
 
 #grad-banner {
   background-image: url(../img/banners/banner1.jpg);
@@ -146,9 +109,4 @@ aside>div {
 
 #fund-banner {
   background-image: url(../img/banners/banner2.jpg);
-}
-
-#frm-filter {
-  width: 90%;
-  margin: auto;
 }

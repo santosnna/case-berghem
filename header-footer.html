@@ -1,0 +1,304 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500&display=swap" rel="stylesheet">   
+   
+   
+   <!-- Navigation Bar -->
+   <nav id="nav-bar">
+    <div class="row">
+      <!-- Logo -->
+      <div class="col-2">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo/logo_branco.png" alt="Brand Name">
+        </a>
+      </div> <!-- /col-2 -->
+
+      <!-- Links -->
+      <div class="col-8 d-flex align-self-center justify-content-center">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#grad-banner">Cursos de Formação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fund-banner">Cursos de Fundamentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cursos Rápidos</a>
+          </li>
+        </ul>
+      </div> <!-- /col-7 -->
+
+      <!-- Search -->
+      <div class="col-2 d-flex align-self-center">
+        <!-- <form action="#"> -->
+        <button id="btn-filter" class="btn btn-outline-primary btn-filter">Filtros</button>
+        <!-- </form> -->
+      </div> <!-- /col-2 -->
+    </div> <!-- /row -->
+
+
+    <!-- Filtros -->
+    <aside id="filters" class="remove">
+      <div>
+        <form action="#">
+          <div class="row">
+            <!-- Objetivo -->
+            <div class="col">
+              <label>
+                <strong>Objetivo</strong>
+              </label>
+              <div class="input-group">
+                <label for="o1">
+                  <input class="goal" type="checkbox" name="o1" id="o1" value="grad-courses">
+                  Cursos de Formação
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="o2">
+                  <input class="goal" type="checkbox" name="o2" id="o2" value="fund-courses">
+                  Cursos de Fundamentos
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="o3">
+                  <input class="goal" type="checkbox" name="o3" id="o3" value="quick-courses">
+                  Cursos Rápidos
+                </label>
+              </div> <!-- /input-group -->
+            </div> <!-- /col -->
+
+            <!-- Preço -->
+            <div class="col">
+              <label>
+                <strong>Preço</strong>
+              </label>
+              <div class="input-group">
+                <label for="p1">
+                  <input type="checkbox" name="p1" id="p1" value="grad-courses">
+                  R$10.000
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="p2">
+                  <input type="checkbox" name="p2" id="p2" value="form-courses">
+                  R$4.000
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="p3">
+                  <input type="checkbox" name="p3" id="p3" value="quick-courses">
+                  R$1.000
+                </label>
+              </div> <!-- /input-group -->
+            </div> <!-- /col -->
+          </div> <!-- /row -->
+
+          <div class="row">
+            <!-- Área -->
+            <div class="col">
+              <label>
+                <strong>Área</strong>
+              </label>
+              <div class="input-group">
+                <label for="a1">
+                  <input class="area" type="checkbox" name="a1" id="a1" value="python">
+                  Python
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="a2">
+                  <input class="area" type="checkbox" name="a2" id="a2" value="php">
+                  PHP
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="a3">
+                  <input class="area" type="checkbox" name="a3" id="a3" value="arq_soft">
+                  Arquitetura de Software
+                </label>
+              </div> <!-- /input-group -->
+            </div> <!-- /col -->
+
+            <!-- Dia -->
+            <div class="col">
+              <label>
+                <strong>Dia</strong>
+              </label>
+              <div class="input-group">
+                <label for="d1">
+                  <input type="checkbox" name="d1" id="d1" value="seg_sex">
+                  Segunda à Sexta
+                </label>
+              </div>
+              <div class="input-group">
+                <label for="d2">
+                  <input type="checkbox" name="d2" id="d2" value="sqs">
+                  Segunda, Quarta e Sexta
+                </label>
+              </div> <!-- /.input-group -->
+            </div> <!-- /.col -->
+          </div> <!-- /.row -->
+        </form>
+      </div><!-- /.filters-container -->
+    </aside> <!-- /#filters -->
+  </nav>
+
+  <footer id="site-footer" class="container-fluid">
+    <div class="container">
+      <div class="row pOffsetBig">
+        <div class="col-2">
+          <a href="https://berghem.com.br/pt/" title="Berghem - Cyber Security e Segurança da Informação"><img
+              src="https://berghem.com.br/wp-content/uploads/2019/07/logo.png" class="img-fluid mx-auto d-block"></a>
+        </div>
+        <div class="col-4">
+          <nav class="menu-footer-container">
+            <ul id="menu-footer" class="list-unstyled menu">
+              <li id="menu-item-480" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-480"><a
+                  href="https://homolog.berghem.com.br">Home</a></li>
+              <li id="menu-item-481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a
+                  href="https://berghem.com.br/pt/empresa/">Empresa</a></li>
+              <li id="menu-item-483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a
+                  href="https://berghem.com.br/pt/contato/">Contato</a></li>
+              <li id="menu-item-484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a
+                  href="https://berghem.com.br/pt/qgbg/">Vagas</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-5">
+          <div class="row">
+            <article class="col-6 location-contact"><b>Localização</b>
+              <svg xmlns="https://www.w3.org/2000/svg" width="21.594" height="26.588" viewBox="0 0 21.594 26.588">
+                <defs>
+                  <style>
+                    .a {
+                      fill: #c8c8c8;
+                    }
+                  </style>
+                </defs>
+                <path class="a"
+                  d="M92.14,69.012l7.343,7.821a.452.452,0,0,0,.66,0l7.342-7.821a11.459,11.459,0,0,0,2.46-3.9,10.644,10.644,0,0,0,.643-4.381,11.29,11.29,0,0,0-3.26-7.22,10.612,10.612,0,0,0-15.03,0,11.29,11.29,0,0,0-3.26,7.22,10.644,10.644,0,0,0,.643,4.381,11.459,11.459,0,0,0,2.46,3.9Zm-2.2-8.225a10.385,10.385,0,0,1,3-6.641,9.706,9.706,0,0,1,13.748,0,10.385,10.385,0,0,1,3,6.641,9.746,9.746,0,0,1-.59,4.011,10.56,10.56,0,0,1-2.269,3.6l-7.012,7.469L92.8,68.393A10.561,10.561,0,0,1,90.531,64.8,9.743,9.743,0,0,1,89.941,60.787Z"
+                  transform="translate(-89.015 -50.387)"></path>
+                <path class="a"
+                  d="M147.574,105.37a7.685,7.685,0,1,0-7.5-7.685,7.6,7.6,0,0,0,7.5,7.685Zm0-14.464a6.782,6.782,0,1,1-6.593,6.779,6.694,6.694,0,0,1,6.593-6.779Z"
+                  transform="translate(-136.776 -87.439)"></path>
+                <path class="a"
+                  d="M201.473,176.087a.452.452,0,0,0,.632.007l4.126-3.94a.453.453,0,0,0-.625-.655l-3.805,3.635-2.032-2.032a.453.453,0,0,0-.64.64Z"
+                  transform="translate(-191.888 -163.552)"></path>
+              </svg>
+              <span>
+                Rua Paes Leme, nº 136 Cj 308 | Pinheiros São Paulo CEP: 05424-010
+              </span></article>
+            <article class="col-6 location-contact"><b>Contato</b>
+              <svg xmlns="https://www.w3.org/2000/svg" width="21.598" height="21.593" viewBox="0 0 21.598 21.593">
+                <defs>
+                  <style>
+                    .a {
+                      fill: #c8c8c8;
+                    }
+                  </style>
+                </defs>
+                <g transform="translate(0)">
+                  <g transform="translate(0 0)">
+                    <path class="a"
+                      d="M21.594,8.291V8.269a.343.343,0,0,0-.015-.073.372.372,0,0,0-.02-.062.347.347,0,0,0-.036-.054.353.353,0,0,0-.049-.057c-.006-.005-.008-.011-.014-.017L18,5.318V2.532a1.079,1.079,0,0,0-1.079-1.079h-3.9L11.454.24a1.068,1.068,0,0,0-1.313,0L8.58,1.453h-3.9A1.079,1.079,0,0,0,3.6,2.532V5.318L.14,8.007c-.006,0-.009.011-.014.017a.353.353,0,0,0-.049.057.344.344,0,0,0-.036.054A.353.353,0,0,0,.02,8.2a.341.341,0,0,0-.015.072c0,.007,0,.013,0,.021V20.528a1.067,1.067,0,0,0,.06.34.353.353,0,0,0,.4.54,1.072,1.072,0,0,0,.624.2H20.517a1.072,1.072,0,0,0,.625-.2.353.353,0,0,0,.395-.537,1.068,1.068,0,0,0,.06-.34V8.291ZM10.581.808a.345.345,0,0,1,.429,0l.83.645H9.753ZM1.17,20.887l9.412-7.311a.346.346,0,0,1,.429,0l9.415,7.311Zm19.705-.562-9.422-7.317a1.067,1.067,0,0,0-1.312,0L.72,20.325V8.835l5.9,4.584a.36.36,0,0,0,.442-.569L1.068,8.2,3.6,6.23V9.011a.36.36,0,1,0,.72,0V2.532a.359.359,0,0,1,.362-.36H16.916a.36.36,0,0,1,.36.36V9.011a.36.36,0,1,0,.72,0V6.23L20.527,8.2l-6.006,4.661a.36.36,0,0,0,.442.569l5.908-4.588Z"
+                      transform="translate(-0.002 -0.015)"></path>
+                    <path class="a" d="M162.484,94.564h7.2a.36.36,0,0,0,0-.72h-7.2a.36.36,0,1,0,0,.72Z"
+                      transform="translate(-155.288 -89.887)"></path>
+                    <path class="a"
+                      d="M170.043,145.4a.36.36,0,0,0-.359-.359h-7.2a.36.36,0,0,0,0,.72h7.2a.359.359,0,0,0,.359-.36Z"
+                      transform="translate(-155.288 -138.927)"></path>
+                    <path class="a"
+                      d="M259.951,196.6a.359.359,0,0,0-.359-.359h-3.239a.36.36,0,0,0,0,.72h3.239a.359.359,0,0,0,.359-.36Z"
+                      transform="translate(-245.196 -187.967)"></path>
+                  </g>
+                </g>
+              </svg>
+              <span>
+                contato@berghem.com.br
+              </span>
+              <svg xmlns="https://www.w3.org/2000/svg" width="21.169" height="21.177" viewBox="0 0 21.169 21.177">
+                <defs>
+                  <style>
+                    .a {
+                      fill: #c8c8c8;
+                    }
+                  </style>
+                </defs>
+                <g transform="translate(0)">
+                  <g transform="translate(0 0.003)">
+                    <path class="a"
+                      d="M17.012,21.169a9.1,9.1,0,0,1-3.114-.662,23.369,23.369,0,0,1-7.856-5.38A23.367,23.367,0,0,1,.662,7.27C-.221,4.938-.221,3.025.655,2.147c.126-.126.255-.265.388-.4C1.842.907,2.767-.046,3.943,0A3.478,3.478,0,0,1,6.388,1.57c2.418,3.008,1.328,4.083.066,5.32l-.223.221c-.207.207-.6,1.162,3.033,4.792a20.2,20.2,0,0,0,3,2.577c.509.33,1.413.829,1.79.457l.224-.226c1.242-1.26,2.314-2.347,5.321.071a3.47,3.47,0,0,1,1.564,2.443c.049,1.2-.9,2.1-1.746,2.9-.138.132-.274.259-.4.384a2.778,2.778,0,0,1-2.009.659ZM3.858.714c-.85,0-1.619.809-2.3,1.524-.138.144-.27.284-.4.414C.506,3.3.573,5.018,1.325,7.019a22.657,22.657,0,0,0,5.218,7.606,22.657,22.657,0,0,0,7.6,5.218c2,.755,3.716.821,4.368.168.131-.13.265-.265.412-.4.732-.7,1.562-1.483,1.525-2.358a2.878,2.878,0,0,0-1.3-1.919c-2.506-2.013-3.206-1.3-4.368-.125l-.228.23c-.553.556-1.456.435-2.681-.363a20.874,20.874,0,0,1-3.118-2.67h0C5.745,9.4,4.782,7.55,5.724,6.609l.227-.225c1.184-1.162,1.9-1.863-.121-4.369A2.887,2.887,0,0,0,3.914.716Z"
+                      transform="translate(0.001 -0.003)"></path>
+                  </g>
+                  <g transform="translate(10.885 0)">
+                    <path class="a"
+                      d="M22.113,10.139a.353.353,0,0,1-.329-.489A2.993,2.993,0,0,0,17.777,5.8a.355.355,0,0,1-.293-.647,3.7,3.7,0,0,1,4.959,4.77.353.353,0,0,1-.329.219Z"
+                      transform="translate(-15.86 -1.388)"></path>
+                    <path class="a"
+                      d="M24.719,10.041a.353.353,0,0,1-.329-.489,6.423,6.423,0,0,0-8.6-8.268A.357.357,0,0,1,15.5.634a7.135,7.135,0,0,1,9.55,9.186A.353.353,0,0,1,24.719,10.041Z"
+                      transform="translate(-15.288 -0.001)"></path>
+                  </g>
+                </g>
+              </svg>
+              <span>
+                55 11 4323-3494
+                <br>
+                55 11 4324-3249
+              </span></article>
+          </div>
+        </div>
+        <div class="col-1">
+          <ul id="social" class="list-inline">
+            <li class="text-center"><a href="https://www.linkedin.com/company/10507635/" title="Linkedin" alt="Linkedin"
+                target="_BLANK"><img
+                  src="https://berghem.com.br/wp-content/uploads/2019/07/Popular_Social_Media-22-5142.png"
+                  class="mx-auto d-block"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Official header -->
+  <header id="site-header" class="container-fluid fixed">
+    <div class="fixedContainer">
+      <div class="container">
+        <div class="row">
+          <div id="logo" class="col-md-2 col-sm-4 col-6"><a href="https://berghem.com.br/pt/"
+              class="img-fluid d-block mx-auto -link" rel="home"><img width="144" height="100"
+                src="https://berghem.com.br/wp-content/uploads/2019/06/logo_branco.png"
+                class="img-fluid d-block mx-auto " alt="Berghem – Cyber Security e Segurança da Informação"></a></div>
+          <nav id="main-menu" class="col-md-8 col-sm-6 col-3 pOffsetMedium desktop">
+            <ul id="menu-main" class="noMargin text-center">
+              <li id="menu-item-56" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56"><a
+                  href="https://berghem.com.br/">Home</a></li>
+              <li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a
+                  href="https://berghem.com.br/pt/empresa/">Empresa</a></li>
+              <li id="menu-item-41"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41"><a
+                  href="#">Serviços</a>
+              </li>
+              <li id="menu-item-991"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-991"><a
+                  href="#">Produtos</a>
+              </li>
+              <li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a
+                  href="https://berghem.com.br/pt/contato/">Contato</a></li>
+              <li id="menu-item-1197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1197"><a
+                  href="https://berghem.gupy.io/">Vagas</a></li>
+            </ul>
+          </nav>
+          <div id="searchLang" class="col-md-2 col-sm-2 col-3 mt-2">
+            <div class="row py-3">
+              <nav class="col-md-6 col-12 lang">
+                <ul id="menu-languages" class="list-unstyled m-0">
+                  <li class="en "><a href="https://berghem.com.br/en/" hreflang="en">En</a></li>
+                  <li class="es "><a href="https://berghem.com.br/es/" hreflang="es">Es</a></li>
+                </ul><a href="#" class="toggleLang">Pt</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>

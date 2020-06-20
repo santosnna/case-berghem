@@ -1,0 +1,154 @@
+/* 
+Background
+ Rich Black: #06072c
+ Japanese Indigo: #28324b
+ White: #ffffff
+ Isabelline: #efefef 
+
+Detalhes
+ International Orange: #fe5000
+
+Fontes
+ Dark Gunmetal: #212529
+ Nickel: #727272
+ White: #ffffff
+ Maven Pro, sans-serif: 400 | 500
+
+Links
+ Texto - White: #ffffff
+ Hover - International Orange: #fe5000
+*/
+
+body {
+  background-color: #28324b;
+  font-family: 'Maven Pro', sans-serif;
+  color: #212529;
+}
+
+header {
+  background-color: #28324b;
+  color: #ffffff;
+}
+
+nav {
+  padding: 0 1rem;
+}
+
+header nav div form {
+  display: inline;
+}
+
+section {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+span {
+  color: #fe5000;
+  font-size: 1.5em;
+}
+
+aside {
+  width: 33%;
+  margin-left: 52%;
+  color: #fe5000;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+
+aside>div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.375em;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #fe5000;
+}
+
+.btn-filter {
+  border-color: #fe5000;
+  color: #fe5000;
+  display: flex;
+  justify-content: end;
+}
+
+.btn-filter:hover {
+  background-color: #fe5000;
+  border: none;
+  outline: none;
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.courses-section {
+  color: #ffffff;
+}
+
+.course-area {
+  background-color: #ffffff;
+  color: #212529;
+  padding-bottom: .75em;
+  padding-top: .75em;
+}
+
+.card-body {
+  height: 250px;
+}
+
+.sched-price-area {
+  background-color: #efefef;
+  border-radius: 5px;
+  padding-top: .5em;
+  margin-top: .5em;
+}
+
+.btn-matricula {
+  display: block;
+  background-color: #fe5000;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-matricula:hover {
+  background-color: #fe5000;
+  font-size: 1.25em;
+  margin: 1.1rem;
+  transition: .25s;
+}
+
+.price-desc {
+  padding-left: .5em;
+}
+
+.remove {
+  display: none;
+}
+
+
+#grad-banner {
+  background-image: url(../img/banners/banner1.jpg);
+}
+
+#fund-banner {
+  background-image: url(../img/banners/banner2.jpg);
+}
+
+#frm-filter {
+  width: 90%;
+  margin: auto;
+}

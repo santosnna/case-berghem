@@ -64,6 +64,10 @@ aside>div {
   justify-content: flex-end;
 }
 
+.container {
+  width: 90%;
+}
+
 .courses-section {
 }
 

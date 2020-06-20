@@ -14,6 +14,25 @@
       margin: 0;
     }
 
+    aside {
+      padding: 1em 0;
+    }
+
+    h2 {
+      font-size: 3em;
+      margin: .5em 0;
+    }
+
+    h3 {
+      font-size: 2em;
+      margin: .5em 0;
+    }
+
+    h4 {
+      font-size: 1.5em;
+      margin: .5em .25em;
+    }
+
     .container {
       width: 90%;
       margin: auto;
@@ -27,6 +46,24 @@
     .lead {
       font-size: 1.5em;
     }
+
+    .course-area {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .course {
+      padding: .5em;
+      display: grid;
+      grid-template-rows: 2fr .5fr 1fr;
+    }
+
+    #grad-banner {
+      background-image: url(../img/banners/banner1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
   </style>
 </head>
 
@@ -34,25 +71,25 @@
   <header>
 
     <div class="container master-banner">
-          <h1 class="">Berghem Ensino de Informática</h1>
-          <p class="lead">
-            Tagline da escola ou outra informação relevante.
-            <br>Bacon ipsum dolor amet drumstick bacon voluptate, veniam tempor ribeye pariatur qui capicola landjaeger
-            incididunt minim turkey porchetta eu.
-          </p>
+      <h1>Berghem Ensino de Informática</h1>
+      <p class="lead">
+        Tagline da escola ou outra informação relevante.
+        <br>Bacon ipsum dolor amet drumstick bacon voluptate, veniam tempor ribeye pariatur qui capicola landjaeger
+        incididunt minim turkey porchetta eu.
+      </p>
     </div>
   </header>
 
   <!-- Cursos de Formação -->
-  <section id="grad-courses">
-    <div id="grad-banner" class="obj-banner">
+  <article id="grad-courses">
+    <aside id="grad-banner">
       <div class="container">
-        <h2 class="obj-heading">
+        <h2>
           <img src="img/icons/icon_grad.png" alt="">
           Cursos de Formação
-          <a href="#nav-bar">
-            <img src="img/icons/icon_top.png" alt="">
-          </a>
+          <!-- <a href="#nav-bar">
+          <img src="img/icons/icon_top.png" alt="">
+        </a> -->
         </h2>
         <p class="lead">
           Nossos <span><strong>Cursos de Formação</strong></span> são voltados aos que procuram titulação acadêmica na
@@ -60,100 +97,87 @@
           escolhida. Com extensa carga horária, esta modalidade prepara os alunos para...
         </p>
       </div> <!-- /container -->
-    </div>
+    </aside>
 
     <!-- Áreas dos Cursos -->
-    <div class="course-area">
+    <section>
       <div class="container">
         <h3>Áreas</h3>
-
-        <!-- Cards -->
-        <div class="row">
+        <div class="course-area">
           <!-- Curso 1 -->
-          <div class="col">
-            <div class="card">
-              <img src="img/cards/card_grad_python.jpg" class="card-img-top"
-                alt="Banner Formação em Programação Python">
-              <div class="card-body">
-                <h4>Formação em Programação Python</h4>
-                <p>Descrição do Curso
-                  <br>Chicken brisket filet mignon labore consectetur kevin shoulder irure boudin cupidatat id tongue
-                  in picanha.
-                </p>
-              </div> <!-- /card-body -->
-            </div> <!-- /card -->
-          </div> <!-- /col -->
+          <div class="course">
+            <img src="img/cards/card_grad_python.jpg" class="card-img-top" alt="Banner Formação em Programação Python">
+            <h4>Formação em Programação Python</h4>
+            <p>Descrição do Curso
+              <br>Chicken brisket filet mignon labore consectetur kevin shoulder irure boudin cupidatat id tongue
+              in picanha.
+            </p>
+          </div> <!-- /course -->
 
           <!-- Curso 2 -->
-          <div class="col-4">
-            <div class="card">
-              <img src="img/cards/card_grad_php.jpg" class="card-img-top" alt="Banner Formação em Programação PHP">
-              <div class="card-body">
-                <h4>Formação em Programação PHP</h4>
-                <p>Descrição do Curso
-                  <br>Chicken brisket filet mignon labore consectetur kevin shoulder irure boudin cupidatat id tongue
-                  in picanha.
-                </p>
-              </div> <!-- /card-body -->
-            </div> <!-- /card -->
-          </div> <!-- /col -->
+          <div class="course">
+            <img src="img/cards/card_grad_php.jpg" class="card-img-top" alt="Banner Formação em Programação PHP">
+            <h4>Formação em Programação PHP</h4>
+            <p>Descrição do Curso
+              <br>Chicken brisket filet mignon labore consectetur kevin shoulder irure boudin cupidatat id tongue
+              in picanha.
+            </p>
+          </div> <!-- /course -->
 
           <!-- Curso 3 -->
-          <div class="col">
-            <div class="card">
-              <img src="img/cards/card_grad_arq_sw.jpg" class="card-img-top"
-                alt="Banner Formação em Programação Arquitetura de Software">
-              <div class="card-body">
-                <h4>Formação em Programação Arquitetura de Software</h4>
-                <p>Descrição do Curso
-                  <br>Chicken brisket filet mignon labore consectetur kevin shoulder irure boudin cupidatat id tongue
-                  in picanha.
-                </p>
-              </div> <!-- /card-body -->
-            </div> <!-- /card -->
-          </div> <!-- /col -->
-        </div> <!-- /row -->
+          <div class="course">
+            <img src="img/cards/card_grad_arq_sw.jpg" class="card-img-top"
+              alt="Banner Formação em Programação Arquitetura de Software">
+            <h4>Formação em Programação Arquitetura de Software</h4>
+            <p>Descrição do Curso
+              <br>Chicken brisket filet mignon labore consectetur kevin shoulder irure boudin cupidatat id tongue
+              in picanha.
+            </p>
+          </div> <!-- /course -->
+        </div> <!-- /container -->
+    </section>
 
-        <!-- Turmas e Valores -->
+
+    <!-- Turmas e Valores -->
+    <div class="row">
+      <div class="col">
+        <h3>Turmas</h3>
+        <p>
+          <span>Segunda</span> à <span>Sexta</span>
+          das <span>19h</span> às <span>22h</span>
+        </p>
+        <ul>
+          <li>Formação em Programação Python</li>
+          <li>Formação em Programação PHP</li>
+          <li>Formação em Programação Arquitetura de Software</li>
+        </ul>
+      </div> <!-- /col -->
+
+      <div class="col">
+        <h3>Valores</h3>
         <div class="row">
+          <div class="col-6">
+            <p><span>R$10.000,00</span></p>
+            <a class="btn btn-primary btn-matricula" href="#">Matricule-se!</a>
+          </div>
+
           <div class="col">
-            <h3>Turmas</h3>
             <p>
-              <span>Segunda</span> à <span>Sexta</span>
-              das <span>19h</span> às <span>22h</span>
+              Este valor inclui
             </p>
             <ul>
-              <li>Formação em Programação Python</li>
-              <li>Formação em Programação PHP</li>
-              <li>Formação em Programação Arquitetura de Software</li>
+              <li>X horas/aula</li>
+              <li>Y materiais</li>
+              <li>Acesso via...</li>
+              <li>Certificado</li>
             </ul>
-          </div> <!-- /col -->
-
-          <div class="col">
-            <h3>Valores</h3>
-            <div class="row">
-              <div class="col-6">
-                <p><span>R$10.000,00</span></p>
-                <a class="btn btn-primary btn-matricula" href="#">Matricule-se!</a>
-              </div>
-
-              <div class="col">
-                <p>
-                  Este valor inclui
-                </p>
-                <ul>
-                  <li>X horas/aula</li>
-                  <li>Y materiais</li>
-                  <li>Acesso via...</li>
-                  <li>Certificado</li>
-                </ul>
-              </div> <!-- /col-->
-            </div> <!-- /row -->
-          </div> <!-- /col -->
+          </div> <!-- /col-->
         </div> <!-- /row -->
-      </div> <!-- /container -->
+      </div> <!-- /col -->
+    </div> <!-- /row -->
+
     </div> <!-- /course-area -->
-  </section>
+  </article>
 
   <!-- Cursos de Fundamentos -->
   <section id="fund-courses">

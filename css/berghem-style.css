@@ -26,13 +26,13 @@ body {
 }
 
 header {
-  padding-bottom: .5em;
+  padding: 1em 0;
   background-color: #28324b;
   color: #ffffff;
 }
 
 h1 {
-  margin: 0;
+  font-size: 2.5em;
 }
 
 aside {
@@ -41,7 +41,7 @@ aside {
 }
 
 h2 {
-  margin: .5em 0;
+  font-size: 2em;
 }
 
 span {
@@ -53,11 +53,12 @@ p {
 }
 
 h3 {
-  margin: .5em 0;
+  font-size: 1.5em;
 }
 
 h4 {
-  margin: .5em .25em;
+  font-size: 1.25em;
+  margin: .5em;
 }
 
 ul {
@@ -87,11 +88,16 @@ a:hover {
 }
 
 .lead {
-  margin: .5em 0;
+  margin: 1em 0;
+  font-size: 1.25em;
 }
 
 .icon {
   display: none;
+}
+
+.course-area {
+  padding: 1em 0;
 }
 
 .course {

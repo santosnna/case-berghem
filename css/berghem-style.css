@@ -48,8 +48,8 @@ span {
   color: #fe5000;
 }
 
-p {
-  margin: 0.5em;
+section {
+  padding-top: 1em;
 }
 
 h3 {
@@ -58,7 +58,8 @@ h3 {
 
 h4 {
   font-size: 1.25em;
-  margin: .5em;
+  margin: 0;
+  margin-bottom: .25em;
 }
 
 ul {
@@ -101,9 +102,10 @@ a:hover {
 }
 
 .course {
-  margin: .5em .5em 1.25em;
+  margin-bottom: 1em;
   border: 1px solid black;
   border-radius: 5px;
+  display: grid;
 }
 
 .card-img {
@@ -111,6 +113,12 @@ a:hover {
   max-height: 100%;
   padding: 0;
   border-radius: 4px 4px 0 0;
+}
+
+.card-body {
+  display: grid;
+  grid-template-rows: 45% 55%;
+  padding: .5em;
 }
 
 .sched-price-area {

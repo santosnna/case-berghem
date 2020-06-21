@@ -1,0 +1,83 @@
+@media(min-width : 375px) {
+  a {
+    margin-left: 2em;
+  }
+}
+
+@media(min-width : 414px) {
+  a {
+    margin-left: 4em;
+  }
+}
+
+@media(min-width : 768px) {
+  h1 {
+    font-size: 5em;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 3em;
+    margin: .5em 0;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  a {
+    display: block;
+    margin: .5em;
+  }
+
+  .icon {
+    display: inline;
+  }
+
+  .course-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .course {
+    margin: .5em;
+    display: grid;
+    grid-template-rows: 1.5fr .5fr 1fr;
+  }
+
+  .sched-price-area {
+    width: 86%;
+    margin: 0 auto;
+    padding: 0 .5em;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(min-width : 985px) {
+
+  h4 {
+    font-size: 1.25em;
+  }
+
+  .lead {
+    font-size: 1.5em;
+  }
+
+  .master-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: last baseline;
+  }
+
+  .course {
+    grid-template-rows: 2fr 1fr 1fr;
+  }
+}
+
+@media(min-width : 1026px) {
+  h4 {
+    font-size: 1.5em;
+  }
+}

@@ -20,28 +20,27 @@ Links
 */
 
 body {
-  /* background-color: #28324b; */
   font-family: 'Maven Pro', sans-serif;
   color: #212529;
+  margin: 0;
 }
 
 header {
-  color: #ffffff;
+  padding-bottom: .5em;
   background-color: #28324b;
+  color: #ffffff;
 }
 
 h1 {
-  font-size: 5em;
   margin: 0;
 }
 
 aside {
   padding: 1em 0;
-  width: 100%;
+  color: #ffffff;
 }
 
 h2 {
-  font-size: 3em;
   margin: .5em 0;
 }
 
@@ -54,13 +53,31 @@ p {
 }
 
 h3 {
-  font-size: 2em;
   margin: .5em 0;
 }
 
 h4 {
-  font-size: 1.5em;
   margin: .5em .25em;
+}
+
+ul {
+  margin: .5em 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #fe5000;
+  padding: .5em;
+  margin: .5em;
+  border: 1px solid #fe5000;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #fe5000;
 }
 
 
@@ -69,27 +86,16 @@ h4 {
   margin: auto;
 }
 
-.master-banner {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: last baseline;
-}
-
 .lead {
-  font-size: 1.5em;
   margin: .5em 0;
 }
 
-.course-area {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
+.icon {
+  display: none;
 }
 
 .course {
-  margin: .5em;
-  display: grid;
-  grid-template-rows: 2fr .5fr 1fr;
+  margin: .5em .5em 1.25em;
   border: 1px solid black;
   border-radius: 5px;
 }
@@ -102,13 +108,10 @@ h4 {
 }
 
 .sched-price-area {
-  margin: 0.5em 1em;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
+  padding: .5em;
   background-color: #efefef;
 }
+
 
 #grad-banner {
   background-image: url(../img/banners/banner1.jpg);

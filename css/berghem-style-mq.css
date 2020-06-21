@@ -1,12 +1,26 @@
-@media(min-width : 375px) {
-  a {
-    margin-left: 2em;
-  }
-}
+@media(min-width : 425px) {
 
-@media(min-width : 414px) {
+
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: .5em 0;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
   a {
-    margin-left: 4em;
+    margin: 0 20%;
   }
 }
 
@@ -27,7 +41,7 @@
 
   a {
     display: block;
-    margin: .5em;
+    margin: 0;
   }
 
   .icon {
@@ -39,11 +53,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .course {
-    margin: .5em;
-    display: grid;
-    grid-template-rows: 1.5fr .5fr 1fr;
-  }
 
   .sched-price-area {
     width: 86%;

@@ -1,40 +1,41 @@
 @media(min-width : 425px) {
   h1 {
-    font-size: 2em;
-    margin: 0;
+    font-size: 3em;
   }
 
   h2 {
-    font-size: 1.5em;
-    margin: .5em 0;
+    font-size: 2.5em;
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   h4 {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
 
   a {
     margin: 0 20%;
   }
+
+
+  .sched-price-area {
+    padding: .5em 1em;
+  }
 }
 
 @media(min-width : 768px) {
   h1 {
-    font-size: 5em;
-    margin: 0;
+    font-size: 4em;
   }
 
   h2 {
-    font-size: 3em;
-    margin: .5em 0;
+    font-size: 3.5em;
   }
 
   h3 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   a {
@@ -46,19 +47,32 @@
     display: inline;
   }
 
+  .lead {
+    font-size: 1.5em;
+  }
+
   .course-area {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .course {
+    margin-left: .5em;
+    margin-right: .5em;
+  }
 
   .sched-price-area {
-    width: 86%;
-    margin: 0 auto;
-    padding: 0 .5em;
-    border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 5%;
+  }
+
+  .sched {
+    margin-right: .5em;
+  }
+
+  .price {
+    margin-left: .5em;
   }
 }
 
@@ -68,18 +82,10 @@
     font-size: 1.25em;
   }
 
-  .lead {
-    font-size: 1.5em;
-  }
-
   .master-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: last baseline;
-  }
-
-  .course {
-    grid-template-rows: 2fr 1fr 1fr;
   }
 }
 

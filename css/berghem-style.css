@@ -1,24 +1,25 @@
-/* 
-Background
- Rich Black: #06072c
+/* SHEET ORGANIZATION: ORDER OF APPEARANCE ON THE PAGE
+
+## Background
  Japanese Indigo: #28324b
  White: #ffffff
  Isabelline: #efefef 
 
-Detalhes
+## Detalhes
  International Orange: #fe5000
 
-Fontes
+## Fontes
  Dark Gunmetal: #212529
- Nickel: #727272
  White: #ffffff
  Maven Pro, sans-serif: 400 | 500
 
-Links
+## Links
  Texto - White: #ffffff
  Hover - International Orange: #fe5000
 */
 
+
+/******************** ELEMENTS ********************/
 body {
   font-family: 'Maven Pro', sans-serif;
   color: #212529;
@@ -83,6 +84,7 @@ a:hover {
 }
 
 
+/******************** CLASSES ********************/
 .container {
   width: 90%;
   margin: auto;
@@ -127,6 +129,7 @@ a:hover {
 }
 
 
+/******************** IDs ********************/
 #grad-banner {
   background-image: url(../img/banners/banner1.jpg);
   background-repeat: no-repeat;

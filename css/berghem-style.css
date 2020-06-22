@@ -68,21 +68,23 @@ ul {
 }
 
 a {
-  display: inline-block;
+  /* display: inline-block; */
   text-decoration: none;
   text-align: center;
   color: #fe5000;
-  padding: .5em;
-  margin: 0 10%;
-  border: 1px solid #fe5000;
-  border-radius: 5px;
 }
 
 a:hover {
   color: #ffffff;
-  background-color: #fe5000;
 }
 
+i.fas.fa-chevron-right {
+  font-size: 5em;
+}
+
+i.fas.fa-chevron-left {
+  font-size: 5em;
+}
 
 /******************** CLASSES ********************/
 .container {
@@ -97,6 +99,21 @@ a:hover {
 
 .icon {
   display: none;
+}
+
+.chevron-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.next-course-chevron {
+  margin-right: 1.5%;
+  align-self: flex-end;
+}
+
+.previous-course-chevron {
+  margin-left: 1.5%;
+  align-self: flex-start;
 }
 
 .course-area {
@@ -128,6 +145,16 @@ a:hover {
   background-color: #efefef;
 }
 
+.btn {
+  border: 1px solid #fe5000;
+  border-radius: 5px;
+  padding: .5em;
+  margin: 0 10%;
+}
+
+.btn:hover {
+  background-color: #fe5000;
+}
 
 /******************** IDs ********************/
 #grad-banner {
@@ -135,4 +162,18 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+#grad-banner2 {
+  background-image: url(../img/banners/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+
+/******************** JavaScript Classes ********************/
+.hide {
+  display: none;
+  transition: 2s;
 }
